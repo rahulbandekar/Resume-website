@@ -2,11 +2,15 @@ import React from "react";
 import image from "../assets/Profile.jpg";
 import { personalDetails } from "../ResumeData";
 import { PiEnvelopeSimpleDuotone } from "react-icons/pi";
+import { FaPhoneAlt, FaFlagUsa } from "react-icons/fa";
+import { HiLink } from "react-icons/hi";
+import { GiIndiaGate, GiPalmTree } from "react-icons/gi";
+import SocialLinks from "./SocialLinks";
 
 
 const Sidebar = () => {
   return (
-    <div className="bg-gray-100 w-full lg:w-1/3 p-8">
+    <div className="bg-customDark w-full lg:w-1/3 p-8">
       <div className="text-center">
         <img
           src={image}
@@ -21,38 +25,68 @@ const Sidebar = () => {
       <hr />
 
       <div className="mt-8">
-        <h3 className="text-lg font-bold mb-2">Contact</h3>
+        <h3 className="text-lg font-bold mb-2 text-gray-500">Contact</h3>
         <ul className="space-y-2">
           <li className="flex items-center">
             <div className="inline-block bg-gray-200 rounded-full p-4 mr-2">
-              <PiEnvelopeSimpleDuotone />
+              <PiEnvelopeSimpleDuotone className="text-2xl" />
             </div>
             <div>
-              Email <br />
+            <span className="text-gray-500">Email</span> <br />
               <a href={`mailto:${personalDetails.email}`}>{personalDetails.email}</a>
             </div>
           </li>
-          <li>Phone: {personalDetails.phone}</li>
-          <li>Website: <a target="_blank" href={personalDetails.socialLinks.find(link => link.label === "Portfolio").link}>Portfolio</a></li>
+          <li className="flex items-center">
+            <div className="inline-block bg-gray-200 rounded-full p-4 mr-2">
+              <FaPhoneAlt className="text-2xl" />
+            </div>
+            <div>
+              <span className="text-gray-600">Phone</span> <br />
+              {personalDetails.phone}
+            </div>
+            </li>
+          <li className="flex items-center">
+          <div className="inline-block bg-gray-200 rounded-full p-4 mr-2">
+              <HiLink className="text-2xl" />
+            </div>
+            <div>
+              <span className="text-gray-600">Website</span> <br /> <a target="_blank" rel="noopener noreferrer" href={personalDetails.socialLinks.find(link => link.label === "Portfolio").link}>Portfolio</a>
+            </div>
+            </li>
         </ul>
       </div>
 
       <br />
       <hr />
-
 
       <div className="mt-8">
-        <h3 className="text-lg font-bold mb-2">Languages</h3>
-        <ul className="space-y-1">
-          <li>Hindi </li>
-          <li>English </li>
-          <li>Konkani </li>
+        <h3 className="text-lg font-bold mb-2 text-gray-500">Languages</h3>
+        <ul className="space-y-2">
+          <li className="flex items-center">
+            <div className="inline-block bg-gray-200 rounded-full p-4 mr-2 text-orange-500 text-2xl">
+              <GiIndiaGate />
+            </div>
+            Hindi
+          </li>
+          <li className="flex items-center">
+            <div className="inline-block bg-gray-200 rounded-full p-4 mr-2 text-blue-500 text-2xl">
+              <FaFlagUsa />
+            </div>
+            English
+          </li>
+          <li className="flex items-center">
+            <div className="inline-block bg-gray-200 rounded-full p-4 mr-2 text-brown-500 text-2xl">
+              <GiPalmTree />
+            </div>
+            Konkani
+          </li>
         </ul>
       </div>
+
       <br />
       <hr />
-      <br />
-
+      <SocialLinks />
+      
     </div>
 
   );

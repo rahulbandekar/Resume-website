@@ -1,3 +1,10 @@
+import goaUniversityLogo from './assets/University.jpg';
+import stXaviersCollegeLogo from './assets/college.jpg';
+import stXaviersHigherSecondaryLogo from './assets/college.jpg';
+import stAnthonyHighSchoolLogo from './assets/school.jpg';
+import { SiMongodb, SiReact, SiNodedotjs, SiTypescript, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiPostman, SiNextdotjs } from 'react-icons/si';
+import { FaGitAlt, FaBootstrap } from 'react-icons/fa';
+
 
 
 export const personalDetails = {
@@ -17,21 +24,25 @@ export const personalDetails = {
       school: "Goa University",
       degree: "Master of Computer Applications",
       year: "2023 - 2025",
+      logo: goaUniversityLogo,
     },
     {
       school: "St. Xavier’s College, Goa",
       degree: "Bachelor of Computer Application",
       year: "2019 - 2022",
+      logo: stXaviersCollegeLogo,
     },
     {
       school: "St. Xavier's Higher Secondary School",
-      degree: "HSSC in Accountancy & Auditing ",
+      degree: "HSSC in Accountancy & Auditing",
       year: "2017 - 2019",
+      logo: stXaviersHigherSecondaryLogo,
     },
     {
       school: "St. Anthony High School",
       degree: "SSC",
       year: "2016 - 2017",
+      logo: stAnthonyHighSchoolLogo,
     },
   ];
   
@@ -52,14 +63,20 @@ export const personalDetails = {
     {
       name: "Plan It Now",
       technologies: "NextJs, MongoDB",
-      description:
-        `Developed a comprehensive web application to streamline the event planning process by connecting vendors and customers on a single platform.`,
+      logos: [<SiNextdotjs className="text-black" />, <SiMongodb className="text-green-500" />],
+      description: [
+        "Developed a comprehensive web application to streamline the event planning process by connecting vendors and customers on a single platform.",
+        "Enabled users to browse and book a wide range of event services, providing a seamless and integrated solution for event planning.",
+      ],
     },
     {
       name: "MeetHub",
       technologies: "NextJs, TypeScript",
-      description:
-        "Implemented real-time features such as live recording and screen sharing, increasing user engagement. Integrated Clerk for secure authentication, reducing unauthorized access by 95%.",
+      logos: [<SiNextdotjs className="text-black" />, <SiTypescript className="text-blue-500" />],
+      description: [
+        "Implemented real-time features such as live recording and screen sharing, increasing user engagement.",
+        "Integrated Clerk for secure authentication, reducing unauthorized access by 95%.",
+      ],
     },
   ];
   
@@ -103,16 +120,15 @@ export const personalDetails = {
   
 
   export const skillsData = [
-    "Java",
-    "C",
-    "C++",
-    "JavaScript",
-    "ReactJS",
-    "NextJS",
-    "MongoDB",
-    "NodeJS",
-    "ExpressJS",
-    "Tailwind CSS",
-    "Git",
-    "Linux",
+    { name: "MongoDB", logo: <SiMongodb className="text-green-500" /> },
+    { name: "React", logo: <SiReact className="text-blue-500" /> },
+    { name: "Node.js", logo: <SiNodedotjs className="text-green-500" /> },
+    { name: "TypeScript", logo: <SiTypescript className="text-blue-500" /> },
+    { name: "JavaScript", logo: <SiJavascript className="text-yellow-500" /> },
+    { name: "HTML5", logo: <SiHtml5 className="text-orange-500" /> },
+    { name: "CSS3", logo: <SiCss3 className="text-blue-500" /> },
+    { name: "Tailwind CSS", logo: <SiTailwindcss className="text-blue-500" /> },
+    { name: "Bootstrap", logo: <FaBootstrap className="text-purple-500" /> },
+    { name: "Git", logo: <FaGitAlt className="text-red-500" /> },
+    { name: "Postman", logo: <SiPostman className="text-orange-500" /> }
   ];
