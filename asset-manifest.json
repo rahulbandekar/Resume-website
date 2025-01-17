@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Resume-website/static/css/main.7047f1a6.css",
-    "main.js": "/Resume-website/static/js/main.18836781.js",
+    "main.css": "/Resume-website/static/css/main.84fc0de8.css",
+    "main.js": "/Resume-website/static/js/main.39175966.js",
     "static/js/488.c2989ee4.chunk.js": "/Resume-website/static/js/488.c2989ee4.chunk.js",
     "static/media/Profile.jpg": "/Resume-website/static/media/Profile.167a249702e0bd0e2129.jpg",
     "static/media/college.jpg": "/Resume-website/static/media/college.1887ddfd77e3cd1f2438.jpg",
     "static/media/University.jpg": "/Resume-website/static/media/University.729f97fbb974a9826380.jpg",
     "index.html": "/Resume-website/index.html",
-    "main.7047f1a6.css.map": "/Resume-website/static/css/main.7047f1a6.css.map",
-    "main.18836781.js.map": "/Resume-website/static/js/main.18836781.js.map",
+    "main.84fc0de8.css.map": "/Resume-website/static/css/main.84fc0de8.css.map",
+    "main.39175966.js.map": "/Resume-website/static/js/main.39175966.js.map",
     "488.c2989ee4.chunk.js.map": "/Resume-website/static/js/488.c2989ee4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7047f1a6.css",
-    "static/js/main.18836781.js"
+    "static/css/main.84fc0de8.css",
+    "static/js/main.39175966.js"
   ]
 }
