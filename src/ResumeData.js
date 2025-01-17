@@ -3,7 +3,7 @@ import stXaviersCollegeLogo from './assets/college.jpg';
 import stXaviersHigherSecondaryLogo from './assets/college.jpg';
 import stAnthonyHighSchoolLogo from './assets/school.jpg';
 import { SiMongodb, SiReact, SiNodedotjs, SiTypescript, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiPostman, SiNextdotjs } from 'react-icons/si';
-import { FaGitAlt, FaBootstrap } from 'react-icons/fa';
+import { FaGitAlt, FaBootstrap, FaJava } from 'react-icons/fa';
 
 
 
@@ -130,5 +130,6 @@ export const personalDetails = {
     { name: "Tailwind CSS", logo: <SiTailwindcss className="text-blue-500" /> },
     { name: "Bootstrap", logo: <FaBootstrap className="text-purple-500" /> },
     { name: "Git", logo: <FaGitAlt className="text-red-500" /> },
-    { name: "Postman", logo: <SiPostman className="text-orange-500" /> }
+    { name: "Postman", logo: <SiPostman className="text-orange-500" /> },
+    { name: "Java", logo: <FaJava className="text-red-500" /> }
   ];
