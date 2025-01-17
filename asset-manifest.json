@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/my-resume-website/static/css/main.7047f1a6.css",
-    "main.js": "/my-resume-website/static/js/main.90979356.js",
-    "static/js/488.c2989ee4.chunk.js": "/my-resume-website/static/js/488.c2989ee4.chunk.js",
-    "static/media/Profile.jpg": "/my-resume-website/static/media/Profile.167a249702e0bd0e2129.jpg",
-    "static/media/college.jpg": "/my-resume-website/static/media/college.1887ddfd77e3cd1f2438.jpg",
-    "static/media/University.jpg": "/my-resume-website/static/media/University.729f97fbb974a9826380.jpg",
-    "index.html": "/my-resume-website/index.html",
-    "main.7047f1a6.css.map": "/my-resume-website/static/css/main.7047f1a6.css.map",
-    "main.90979356.js.map": "/my-resume-website/static/js/main.90979356.js.map",
-    "488.c2989ee4.chunk.js.map": "/my-resume-website/static/js/488.c2989ee4.chunk.js.map"
+    "main.css": "/resume-website/static/css/main.7047f1a6.css",
+    "main.js": "/resume-website/static/js/main.9dc8df0e.js",
+    "static/js/488.c2989ee4.chunk.js": "/resume-website/static/js/488.c2989ee4.chunk.js",
+    "static/media/Profile.jpg": "/resume-website/static/media/Profile.167a249702e0bd0e2129.jpg",
+    "static/media/college.jpg": "/resume-website/static/media/college.1887ddfd77e3cd1f2438.jpg",
+    "static/media/University.jpg": "/resume-website/static/media/University.729f97fbb974a9826380.jpg",
+    "index.html": "/resume-website/index.html",
+    "main.7047f1a6.css.map": "/resume-website/static/css/main.7047f1a6.css.map",
+    "main.9dc8df0e.js.map": "/resume-website/static/js/main.9dc8df0e.js.map",
+    "488.c2989ee4.chunk.js.map": "/resume-website/static/js/488.c2989ee4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7047f1a6.css",
-    "static/js/main.90979356.js"
+    "static/js/main.9dc8df0e.js"
   ]
 }
