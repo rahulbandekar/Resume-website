@@ -8,7 +8,7 @@ export const personalDetails = {
     socialLinks: [
       { label: "LinkedIn", link: "https://linkedin.com/in/rahulbandekar" },
       { label: "GitHub", link: "https://github.com/rahulbandekar" },
-      { label: "Portfolio", link: "https://rahulbandekar.com" },
+      { label: "Portfolio", link: "https://www.rahulbandekar.tech" },
     ],
   };
   
